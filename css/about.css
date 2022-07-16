@@ -1,0 +1,64 @@
+.about-container {
+    background-color: #1abc9c;
+    height: 630;
+    width: 100%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100;
+}
+
+.about-content > * {
+    margin: 12;
+}
+
+.about-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50;
+}
+
+.about-description {
+    display: flex;
+    width: 60%;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20;
+}
+
+.about-description > p {
+    margin: 20 35;
+}
+
+.download-button {
+    margin: 0px 10px;
+    border: 2px solid white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20;
+    transition: all .4s linear;
+}
+
+.download-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.svg-inline--fa {
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+.about-download-button img {
+    padding-right: 10px;
+}

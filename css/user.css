@@ -1,0 +1,43 @@
+.user-content {
+    height: 600;
+    width: 100%;
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200;
+}
+
+.user-content > *{
+    margin: 13;
+}
+
+.user-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 70;
+    color: white;
+}
+
+.seperator{
+    display: flex;
+    align-items: center;
+}
+
+.seperator > * {
+    margin: 0 10;
+}
+
+.user-line {
+    height: 4px;
+    background-color: white;
+    width: 120px;
+    border-radius: 50px;
+}
+
+.user-description {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25;
+    font-weight: 500;
+}

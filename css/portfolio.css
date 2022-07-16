@@ -1,0 +1,37 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70;
+    justify-content: center;
+}
+
+.portfolio-title {
+    color: #212832;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 55;
+    justify-content: center;
+}
+
+.portfolio .seperator .user-line {
+    background-color: #212832;
+}
+
+.gallery-content {
+    width: 80%;
+    padding-top: 50;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row img {
+    border-radius: 10px;
+    margin: 12;
+}
+
+.second-row img {
+    border-radius: 10px;
+    margin: 12; 
+    padding-bottom: 100;
+}
